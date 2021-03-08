@@ -1,0 +1,21 @@
+.grid-container {
+  display: flex;
+  grid-template-columns: auto auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .grid-container {
+    display: grid !important;
+  }
+ 
+}
+
+@media only screen and (min-width: 1024px) {
+  .card-img-overlay {
+    padding: 5% 20% !important;
+  }
+
+  .form-search {
+    padding: 50px;
+  }
+}
