@@ -1,0 +1,32 @@
+.card-img-overlay {
+  padding: 5% !important;
+}
+
+.form-search {
+  padding: 15px;
+}
+
+.btn-search {
+  background-color: #f15625 !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .card-img-overlay {
+    padding: 5% 10% !important;
+  }
+
+  .form-search {
+    padding: 25px;
+  }
+ 
+}
+
+@media only screen and (min-width: 1024px) {
+  .card-img-overlay {
+    padding: 5% 20% !important;
+  }
+
+  .form-search {
+    padding: 50px;
+  }
+}
