@@ -5,10 +5,6 @@
   justify-content: center;
 }
 
-.img-jumbo {
-  aspect-ratio: 1;
-}
-
 .first-content {
   background-color: #8ac4d0 !important;
 }
@@ -31,7 +27,7 @@
   color: #8ac4d0 !important;
 }
 
-.btn-jumbo-near  {
+.btn-jumbo-near {
   background-color: #fff !important;
   color: gray !important;
 }
