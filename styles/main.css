@@ -1,3 +1,7 @@
+*:not(.fas) {
+  font-family: 'Redressed', cursive;
+}
+
 .steps {
   margin: 5%;
 }
