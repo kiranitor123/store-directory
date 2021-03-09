@@ -2,14 +2,28 @@
   font-family: 'Redressed', cursive;
 }
 
+main {
+  margin-top: 110px;
+}
+
 .steps {
   margin: 5%;
+}
+
+.stiky {
+  position: fixed;
+  top: 0;
+  z-index: 9;
 }
 
 @media only screen and (min-width: 768px) {
   .steps {
     margin: 5% auto;
     width: 90%;
+  }
+
+  main {
+    margin-top: 60px;
   }
 }
 
