@@ -4,3 +4,40 @@
   background-color: lightgray;
   margin-bottom: 30px;
 }
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-steps {
+  font-size: 12px;
+}
+
+.container-img {
+  background-color: rgba(0, 0, 0, 0.508);
+}
+
+.img-fluid {
+  height: 350px !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .grid-container {
+    display: grid !important;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .grid-container {
+    display: grid !important;
+    grid-template-columns: auto auto auto;
+  }
+  .card-img-overlay {
+    padding: 5% 20% !important;
+  }
+  .form-search {
+    padding: 50px;
+  }
+}
