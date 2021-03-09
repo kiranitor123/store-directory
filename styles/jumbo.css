@@ -1,0 +1,37 @@
+.title-jumbo {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+
+.img-jumbo {
+  aspect-ratio: 1;
+}
+
+.first-content {
+  background-color: #f15625 !important;
+}
+
+.second-content {
+  background-color: #98a4a5 !important;
+}
+
+.third-content {
+  background-color: #509bd7 !important;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-jumbo {
+  background-color: #fff !important;
+  color: #f15625 !important;
+}
+
+.btn-jumbo-near  {
+  background-color: #fff !important;
+  color: gray !important;
+}
