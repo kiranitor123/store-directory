@@ -22,7 +22,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://kiranitor123.github.io/store-directory/)
+[Live Demo Link](https://kiranitor123.github.io/store-directory/dist/)
 
 
 ## Getting Started
@@ -42,6 +42,11 @@ To get a local copy up and running follow these simple example steps.
 
 Owning a web broser :D
 
+### To review
+
+Just clone the github repositori
+
+Using a GitHub Descktop program or SSH protocol
 ### Usage
 
 Just run index.html on browser, or run in the command line, like this:
@@ -73,4 +78,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is MIT licensed.
+This project is Licensed under a [Creative Commons Attribution 4.0 International License (CC BY)](https://creativecommons.org/licenses/by/4.0/).
