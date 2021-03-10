@@ -1,0 +1,20 @@
+.list-group-item {
+  border: 1px solid !important;
+}
+
+.shadow {
+  margin: 20px;
+}
+
+.click-more {
+  padding: 30px;
+  background-color: #eee;
+}
+
+.map-directions {
+  justify-content: center;
+}
+
+.color-main {
+  color: #d35648;
+}

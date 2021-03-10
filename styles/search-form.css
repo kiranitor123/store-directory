@@ -31,10 +31,6 @@
     grid-template-columns: auto auto auto;
   }
 
-  .card-img-overlay {
-    padding: 5% 20% !important;
-  }
-
   .form-search {
     padding: 50px;
   }
