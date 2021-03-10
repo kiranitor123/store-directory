@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./styles/main.css" />
-  <link rel="stylesheet" href="./styles/nav.css">
-  <link rel="stylesheet" href="./styles/cover.css">
-  <link rel="stylesheet" href="./styles/steps.css">
-  <link rel="stylesheet" href="./styles/jumbo.css">
-  <link rel="stylesheet" href="./styles/footer.css">
+  <title>PC INC</title>
+  <link rel="stylesheet" href="../styles/main.css" />
+  <link rel="stylesheet" href="../styles/nav.css">
+  <link rel="stylesheet" href="../styles/cover.css">
+  <link rel="stylesheet" href="../styles/steps.css">
+  <link rel="stylesheet" href="../styles/jumbo.css">
+  <link rel="stylesheet" href="../styles/footer.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -25,27 +25,30 @@
     ></script>
 </head>
 <body>
-  <nav class="stiky w-100 d-flex justify-content-between px-4 pt-2 pb-2 align-items-center flex-column flex-md-row">
-    <a href=""><img height="50" width="200" src="./assets/logo2.png" alt="logo"></a>
-    <div class="header-links d-flex align-items-center">
-      <a href="./search.html"><i class="fas fa-search px-3 text-white"><span class="d-none d-xl-inline-block px-2">STORES</span> </i></a>
-      <a href=""><i class="far fa-user px-3 text-white"><span class="d-none d-xl-inline-block px-2">ABOUT</span></i></a>
-      <a href=""><i class="fas fa-rss px-3 text-white"><span class="d-none d-xl-inline-block px-2">BLOG</span></i></a>
-      <a href=""><i class="fas fa-bars px-3 text-white"><span class="d-none d-xl-inline-block px-2">MORE...</span></i></a>
-    </div>
-  </nav>
+  <header>
+    <nav class="stiky w-100 d-flex justify-content-between px-4 pt-2 pb-2 align-items-center flex-column flex-md-row">
+      <a href="./index.html"><img height="50" width="200" src="../assets/logo2.png" alt="logo"></a>
+      <div class="header-links d-flex align-items-center">
+        <a href="./search.html"><i class="fas fa-search px-3 text-white"><span class="d-none d-xl-inline-block px-2">STORES</span> </i></a>
+        <a href="#"><i class="far fa-user px-3 text-white"><span class="d-none d-xl-inline-block px-2">ABOUT</span></i></a>
+        <a href="#"><i class="fas fa-rss px-3 text-white"><span class="d-none d-xl-inline-block px-2">BLOG</span></i></a>
+        <a href="#"><i class="fas fa-bars px-3 text-white"><span class="d-none d-xl-inline-block px-2">MORE...</span></i></a>
+      </div>
+    </nav>
+  </header>
+  
   <main>
     <section>
       <div class="card bg-dark text-white">
-        <img height="500" src="./assets/cover2.jpeg" class="card-img" alt="banner">
-        <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column">
-          <h5 class="card-title text-center">PC INC... YOUR GATEWAY TO PC STORES IN THE WORLD</h5>
+        <img height="500" src="../assets/cover2.jpeg" class="card-img" alt="banner">
+        <div id="img-overlay" class="card-img-overlay d-flex justify-content-center align-items-center flex-column">
+          <h1 class="card-title text-center font-weight-light">PC INC... YOUR GATEWAY TO PC STORES IN THE WORLD</h1>
           <form class="bg-light w-100 rounded m-0 form-search">
             <div class="form-group">
               <label for="exampleInputEmail1" class="text-dark font-weight-bold">SEARCH BY KEY WORD:</label>
               <div class="d-flex flex-column flex-md-row">
                 <input type="text" class="form-control" id="exampleInputEmail1">
-                <a class="btn btn-search text-light" href="./search.html" role="button">SEARCH</a>
+                <a id="search-btn" class="btn text-light" href="./search.html" role="button">SEARCH</a>
               </div>
             </div> 
           </form>
@@ -54,97 +57,97 @@
       </div>
     </section>
     <section class="steps">
-        <h4 class="text-center mb-3">PC INC WORKS IN FOUR SIMPLE STEPS</h4>
-        <div class="flex-column grid-container ">
+        <h4 id="title-pcinc" class="text-center mb-3 font-weight-bold">PC INC WORKS IN FOUR SIMPLE STEPS</h4>
+        <div class="flex-column grid-container">
           <div class="w-100 d-flex d-md-bl flex-column align-items-center px-4 py-2">
-            <img height="45" src="./assets/search.png" alt="search-icon">
-            <h3>1.- SEARCH:</h3>
+            <img height="45" src="../assets/search.png" alt="search-icon">
+            <h4>1.- SEARCH:</h4>
             <p class="text-center content-steps">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur velit mauris, volutpat at suscipit in, elementum sed diam</p>
           </div>
           <div class="w-100 d-flex flex-column align-items-center px-4 py-2">
-            <img height="45" src="./assets/map.png" alt="search-icon">
-            <h3>2.- LOCATE:</h3>
+            <img height="45" src="../assets/map.png" alt="search-icon">
+            <h4>2.- LOCATE:</h4>
             <p class="text-center content-steps">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur velit mauris, volutpat at suscipit in, elementum sed diam</p>
           </div>
           <div class="w-100 d-flex flex-column align-items-center px-4 py-2">
-            <img height="45" src="./assets/checklist.png" alt="search-icon">
-            <h3>3.- APPLY:</h3>
+            <img height="45" src="../assets/checklist.png" alt="search-icon">
+            <h4>3.- APPLY:</h4>
             <p class="text-center content-steps">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur velit mauris, volutpat at suscipit in, elementum sed diam</p>
           </div>
           <div class="w-100 d-flex flex-column align-items-center px-4 py-2">
-            <img height="45" src="./assets/sunbed.png" alt="search-icon">
-            <h3>4.- RELAX:</h3>
+            <img height="45" src="../assets/sunbed.png" alt="search-icon">
+            <h4>4.- RELAX:</h4>
             <p class="text-center content-steps">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur velit mauris, volutpat at suscipit in, elementum sed diam</p>
           </div>
         </div>
       
     </section>
     <section class="jumbo-content">
-      <div class="jumbotron first-content mb-0">
+      <div id="first-content" class="jumbotron mb-0">
         <div class="row m-0">
           <div class="col-12 col-md-8 title-jumbo">
             <h3 class="text-white">Over 10.000 stores registered with us</h3>
             <p class="text-white">Find a store by using our diltered search engine.</p>
             <hr class="my-4">
-            <a class="btn btn-jumbo btn-lg " href="./search.html" role="button">Find a store</a>
+            <a id="btn-jumbo" class="btn btn-lg " href="./search.html" role="button">Find a store</a>
           </div>
           <div class="col-4 d-none d-md-flex img-container">
-            <img class="img-jumbo rounded-circle" width="300" height="300" src="./assets/mapsmarker.jpeg" alt="">
+            <img class="img-jumbo rounded-circle" width="300" height="300" src="../assets/mapsmarker.jpeg" alt="">
           </div>
         </div>
       </div>
-      <div class="jumbotron second-content mb-0">
+      <div id="second-content" class="jumbotron mb-0">
         <div class="row m-0">
           <div class="col-12 col-md-8 title-jumbo">
             <h3 class="text-white">No need to break your head to find a store in the contry</h3>
             <p class="text-white">Just press or click on the search button and You're all set.</p>
             <hr class="my-4">
-            <a class="btn btn-jumbo-near btn-lg " href="./search.html" role="button">Find a store near you</a>
+            <a id="btn-jumbo-near" class="btn btn-lg " href="./search.html" role="button">Find a store near you</a>
           </div>
           <div class="col-4 d-none d-md-flex img-container">
-            <img class="img-jumbo rounded-circle" width="300" height="300" src="./assets/map2.jpeg" alt="">
+            <img class="img-jumbo rounded-circle" width="300" height="300" src="../assets/map2.jpeg" alt="">
           </div>
         </div>
       </div>
-      <div class="jumbotron third-content mb-0">
+      <div id="third-content" class="jumbotron mb-0">
         <div class="row m-0">
           <div class="col-12 col-md-8 title-jumbo">
             <h3 class="text-white">Anytime Anywhere Any way</h3>
             <p class="text-white">Very convinient platform that cut across any device including our mobile ready web app and our mobile app coming soon to your app store.</p>
           </div>
           <div class="col-4 d-none d-md-flex img-container">
-            <img class="img-jumbo rounded-circle" width="300" height="300" src="./assets/mobile2.png" alt="mobile version">
+            <img class="img-jumbo rounded-circle" width="300" height="300" src="../assets/mobile2.png" alt="mobile version">
           </div>
         </div>
       </div>
     </section>
   </main>
-  <footer class="p-5">
+  <footer class="px-5 pt-5 pb-2">
     <div class="d-flex footer-main-content flex-column flex-md-row" >
       <div class="foot-cont flex-column flex-md-row">
         <a class="text-white p-1" href="./index.html">HOME</a>
         <a class="text-white p-1" href="./search.html">SEARCH</a>
-        <a class="text-white p-1" href="">ABOUT US</a>
-        <a class="text-white p-1" href="">ADVERSTISE</a>
+        <a class="text-white p-1" href="#">ABOUT US</a>
+        <a class="text-white p-1" href="#">ADVERSTISE</a>
       </div>
       <div class="d-none d-lg-block">
-        <img height="100" width="100" class="rounded-circle footer-img" src="./assets/logo-footer2.png" alt="">
+        <img height="100" width="100" class="rounded-circle footer-img" src="../assets/logo-footer2.png" alt="">
       </div>
       <div class="foot-cont flex-column flex-md-row">
-        <a class="text-white p-1" href="">FACEBOOK</a>
-        <a class="text-white p-1" href="">TWITTER</a>
-        <a class="text-white p-1" href="">BLOG</a>
-        <a class="text-white p-1" href="">GOOGLE+</a>
+        <a class="text-white p-1" href="#">FACEBOOK</a>
+        <a class="text-white p-1" href="#">TWITTER</a>
+        <a class="text-white p-1" href="#">BLOG</a>
+        <a class="text-white p-1" href="#">GOOGLE+</a>
       </div>
     </div>
-    <div class="row my-3 py-4">
+    <div class="row my-3">
       <div class="my-3 col-12 col-md-4">
         <h5 class="text-white text-center my-3">SUBSCRIBE</h5>
         <form class="rounded m-0">
           <div class="form-group">
             <div class="d-flex flex-column flex-md-row">
               <input type="email" class="form-control" id="subscribe" placeholder="youremail@email.com">
-              <button type="submit" class="btn btn-subscribe text-light">Send</button>
+              <button id="btn-subscribe" type="submit" class="btn text-light">Send</button>
             </div>
           </div> 
         </form>
@@ -152,16 +155,53 @@
       <div class="my-3 col-12 col-md-4">
         <h5 class="text-white text-center my-3">CONTACT</h5>
         <p class="text-white text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a href=""><p class="text-center email-color">email@pcinc.com</p></a> 
+        <a href="#"><p class="text-center email-color">email@pcinc.com</p></a> 
       </div>
       <div class="my-3 col-12 col-md-4">
         <h5 class="text-white text-center my-3">ABOUT</h5>
         <p class="text-white text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          <a class="text-center email-color" href="">see more ...</a> 
+          <a class="text-center email-color" href="#">see more ...</a> 
         </p>
         
       </div>
     </div>
+  </footer>
+  <footer id="more-links" class="py-3 px-1 d-flex align-middle justify-content-between">
+    <div>
+      <a href="#">
+        <span class="fa-stack fa-1x">
+          <i class="fas fa-circle fa-stack-2x circle-color"></i>
+          <i class="fab fa-facebook-f fa-stack-1x brand-color "></i>
+        </span>
+      </a>
+      <a href="#">
+        <span class="fa-stack fa-1x">
+          <i class="fas fa-circle fa-stack-2x circle-color"></i>
+          <i class="fab fa-twitter fa-stack-1x brand-color"></i>
+        </span>
+      </a>
+      <a href="#">
+        <span class="fa-stack fa-1x">
+          <i class="fas fa-circle fa-stack-2x circle-color"></i>
+          <i class="fab fa-wordpress fa-stack-1x brand-color"></i>
+        </span>
+      </a>
+      <a href="#">
+        <span class="fa-stack fa-1x">
+          <i class="fas fa-circle fa-stack-2x circle-color"></i>
+          <i class="fab fa-google-plus-g fa-stack-1x brand-color "></i>
+        </span>
+      </a>
+      <a href="#">
+        <span class="fa-stack fa-1x">
+          <i class="fas fa-circle fa-stack-2x circle-color"></i>
+          <i class="fab fa-instagram fa-stack-1x brand-color"></i>
+        </span>
+      </a>
+    </div>
+    <span class="brand-color text-monospace text-uppercase">
+      &copy;2021 PC-Inc All rigths reserved
+    </span>
   </footer>
 
   <script

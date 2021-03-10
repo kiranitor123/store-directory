@@ -5,16 +5,16 @@
   justify-content: center;
 }
 
-.first-content {
-  background-color: #8ac4d0 !important;
+#first-content {
+  background-color: #e27e66;
 }
 
-.second-content {
-  background-color: #28527a !important;
+#second-content {
+  background-color: #98a4a5;
 }
 
-.third-content {
-  background-color: #4a3933 !important;
+#third-content {
+  background-color: #509bd7;
 }
 
 .img-container {
@@ -22,12 +22,12 @@
   justify-content: center;
 }
 
-.btn-jumbo {
-  background-color: #fff !important;
-  color: #8ac4d0 !important;
+#btn-jumbo {
+  background-color: #fff;
+  color: #d35648;;
 }
 
-.btn-jumbo-near {
-  background-color: #fff !important;
-  color: gray !important;
+#btn-jumbo-near {
+  background-color: #fff;
+  color: gray;
 }

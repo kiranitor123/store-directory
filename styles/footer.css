@@ -24,12 +24,24 @@ footer {
   text-align: center;
 }
 
-.btn-subscribe {
-  background-color: gray !important;
+#btn-subscribe {
+  background-color: gray;
 }
 
 .email-color {
-  color: #a7c5eb;
+  color: #d35648;
+}
+
+.circle-color {
+  color: #0e0e0e;
+}
+
+.brand-color {
+  color: #555;
+}
+
+#more-links {
+  background-color: #1f1f1f;
 }
 
 @media only screen and (min-width: 768px) {
@@ -39,7 +51,5 @@ footer {
 }
 
 @media only screen and (min-width: 1024px) {
-  .steps {
-    width: 60%;
-  }
+
 }

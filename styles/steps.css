@@ -7,15 +7,16 @@
   font-size: 12px;
 }
 
+#title-pcinc {
+  color: #d35648;
+}
+
 @media only screen and (min-width: 768px) {
-  .grid-container {
-    display: grid !important;
-  }
 }
 
 @media only screen and (min-width: 1024px) {
-  .card-img-overlay {
-    padding: 5% 20% !important;
+  .grid-container {
+    display: grid;
   }
 
   .form-search {

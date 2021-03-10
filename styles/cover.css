@@ -1,18 +1,18 @@
-.card-img-overlay {
-  padding: 5% !important;
+#img-overlay {
+  padding: 5%;
 }
 
 .form-search {
   padding: 15px;
 }
 
-.btn-search {
-  background-color: #8ac4d0 !important;
+#search-btn {
+  background-color: #d35648;
 }
 
 @media only screen and (min-width: 768px) {
-  .card-img-overlay {
-    padding: 5% 10% !important;
+  #img-overlay {
+    padding: 5% 10%;
   }
 
   .form-search {
@@ -21,8 +21,8 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  .card-img-overlay {
-    padding: 5% 20% !important;
+  #img-overlay {
+    padding: 5% 20%;
   }
 
   .form-search {

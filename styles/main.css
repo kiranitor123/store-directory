@@ -1,5 +1,9 @@
 *:not(.fas) {
-  font-family: 'Redressed', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+
+*:not(.fab) {
+  font-family: 'Poppins', sans-serif;
 }
 
 main {
