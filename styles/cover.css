@@ -1,0 +1,31 @@
+#img-overlay {
+  padding: 5%;
+}
+
+.form-search {
+  padding: 15px;
+}
+
+#search-btn {
+  background-color: #d35648;
+}
+
+@media only screen and (min-width: 768px) {
+  #img-overlay {
+    padding: 5% 10%;
+  }
+
+  .form-search {
+    padding: 25px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #img-overlay {
+    padding: 5% 20%;
+  }
+
+  .form-search {
+    padding: 50px;
+  }
+}

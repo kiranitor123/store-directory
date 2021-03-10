@@ -1,0 +1,33 @@
+.title-jumbo {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+
+#first-content {
+  background-color: #e27e66;
+}
+
+#second-content {
+  background-color: #98a4a5;
+}
+
+#third-content {
+  background-color: #509bd7;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+#btn-jumbo {
+  background-color: #fff;
+  color: #d35648;
+}
+
+#btn-jumbo-near {
+  background-color: #fff;
+  color: gray;
+}

@@ -1,0 +1,37 @@
+.search-form {
+  margin-top: 100px;
+  padding: 20px;
+  background-color: lightgray;
+  margin-bottom: 30px;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-steps {
+  font-size: 12px;
+}
+
+.container-img {
+  background-color: rgba(0, 0, 0, 0.508);
+}
+
+@media only screen and (min-width: 768px) {
+  .grid-container {
+    display: grid !important;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .grid-container {
+    display: grid !important;
+    grid-template-columns: auto auto auto;
+  }
+
+  .form-search {
+    padding: 50px;
+  }
+}

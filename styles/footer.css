@@ -1,0 +1,51 @@
+footer {
+  background-color: #000;
+}
+
+.footer-img {
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.footer-main-content {
+  align-items: center;
+}
+
+.foot-cont {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 7px 10px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.foot-cont a {
+  text-align: center;
+}
+
+#btn-subscribe {
+  background-color: gray;
+}
+
+.email-color {
+  color: #d35648;
+}
+
+.circle-color {
+  color: #0e0e0e;
+}
+
+.brand-color {
+  color: #555;
+}
+
+#more-links {
+  background-color: #1f1f1f;
+}
+
+@media only screen and (min-width: 768px) {
+  .foot-cont {
+    width: 125%;
+  }
+}

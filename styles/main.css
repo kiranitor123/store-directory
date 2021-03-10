@@ -1,0 +1,38 @@
+*:not(.fas) {
+  font-family: 'Poppins', sans-serif;
+}
+
+*:not(.fab) {
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  margin-top: 110px;
+}
+
+.steps {
+  margin: 5%;
+}
+
+.stiky {
+  position: fixed;
+  top: 0;
+  z-index: 9;
+}
+
+@media only screen and (min-width: 768px) {
+  .steps {
+    margin: 5% auto;
+    width: 90%;
+  }
+
+  main {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .steps {
+    width: 60%;
+  }
+}

@@ -1,0 +1,22 @@
+.grid-container {
+  display: flex;
+  grid-template-columns: auto auto;
+}
+
+.content-steps {
+  font-size: 12px;
+}
+
+#title-pcinc {
+  color: #d35648;
+}
+
+@media only screen and (min-width: 1024px) {
+  .grid-container {
+    display: grid;
+  }
+
+  .form-search {
+    padding: 50px;
+  }
+}
