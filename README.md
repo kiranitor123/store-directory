@@ -27,6 +27,10 @@
 
 ## Getting Started
 
+First you can clone this repositori using a Descktop Application, or using SSH.
+Next go tu Usage section.
+
+
 For linters-checking purposes, run:
 
 `npm install`
