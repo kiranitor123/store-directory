@@ -79,3 +79,7 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is Licensed under a [Creative Commons Attribution 4.0 International License (CC BY)](https://creativecommons.org/licenses/by/4.0/).
+
+## Original Design
+
+If you liked this proyect, the original desigin https://www.behance.net/gallery/25563385/PatashuleKE
